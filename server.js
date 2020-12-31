@@ -9,7 +9,7 @@ import Cards from "./dbCards.js";
 // create our instance
 const app = express();
 const port = process.env.PORT || 8001
-const connection_url = 'mongodb+srv://Sanad:stEqfIKgHsS88ulw@tinder.ml2rr.mongodb.net/tinderdb?retryWrites=true&w=majority';
+const connection_url = 'MongoDB Link';
 
 // Middlewares
 app.use(express.json());
